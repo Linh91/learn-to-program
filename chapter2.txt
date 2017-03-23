@@ -1,0 +1,11 @@
+How many hours in a year?
+puts 365 * 24
+
+How many minutes in a decade?
+puts (8760 * 60) * 10
+
+Your age in seconds
+puts (525600 * 60) * 26
+
+Our dear author's age
+puts 1160000000 / (60*60*24*365)
