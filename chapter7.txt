@@ -15,3 +15,23 @@ while present_num > 2
   puts 1 bottles of beer on the wall, 1 bottles of beer!
   puts Take one down, pass it around, no more bottles of beer on the wall!
   
+Deaf Grandma
+
+puts 'HELLO HONEY IT'S GRANDMA'
+
+While true
+  said = gets.chomp
+
+  if said == BYE
+    puts 'BYE SWEETIE\!'
+    break
+  end
+
+  if said \!= said.upcase
+    puts 'HUH?\! SPEAK UP, SONNY\!'
+  else
+    rand_year = 1930 + rand(21)
+    puts 'NO, NOT SINCE ' + rand_year.to_s + '\!'
+  end
+end
+  
