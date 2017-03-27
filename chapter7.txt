@@ -1,0 +1,17 @@
+99 Bottles of Beer on the wall
+
+start_num = 5
+present_num = start_num
+while present_num > 2
+  puts present_num.to_s + ' bottles of beer on the wall, ' +
+    present_num.to_s + ' bottles of beer\!'
+  present_num = present_num - 1
+
+  puts 'Take one down, pass it around, ' +
+    present_num.to_s + ' bottles of beer on the wall\!'
+  end
+  puts 2 bottles of beer on the wall, 2 bottles of beer!
+  puts Take one down, pass it around, 1 bottles of beer on the wall!
+  puts 1 bottles of beer on the wall, 1 bottles of beer!
+  puts Take one down, pass it around, no more bottles of beer on the wall!
+  
