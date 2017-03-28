@@ -1,0 +1,2 @@
+How many minutes in a decade?
+puts (8760 * 60) * 10

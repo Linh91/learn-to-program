@@ -1,0 +1,2 @@
+Your age in seconds
+puts (525600 * 60) * 26
