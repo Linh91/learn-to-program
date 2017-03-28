@@ -1,37 +1,8 @@
-99 Bottles of Beer on the wall
-
-start_num = 5
-present_num = start_num
-while present_num > 2
-  puts present_num.to_s + ' bottles of beer on the wall, ' +
-    present_num.to_s + ' bottles of beer\!'
-  present_num = present_num - 1
-
-  puts 'Take one down, pass it around, ' +
-    present_num.to_s + ' bottles of beer on the wall\!'
+ 
+    if said \!= said.upcase
+      puts 'HUH?\! SPEAK UP, SONNY\!'
+    else
+ +    rand_year = 1930 + rand(12)
+      puts 'NO, NOT SINCE ' + rand_year.to_s + '\!'
+    end
   end
-  puts 2 bottles of beer on the wall, 2 bottles of beer!
-  puts Take one down, pass it around, 1 bottles of beer on the wall!
-  puts 1 bottles of beer on the wall, 1 bottles of beer!
-  puts Take one down, pass it around, no more bottles of beer on the wall!
-  
-Deaf Grandma
-
-puts 'HELLO HONEY IT'S GRANDMA'
-
-While true
-  said = gets.chomp
-
-  if said == BYE
-    puts 'BYE SWEETIE\!'
-    break
-  end
-
-  if said \!= said.upcase
-    puts 'HUH?\! SPEAK UP, SONNY\!'
-  else
-    rand_year = 1930 + rand(12)
-    puts 'NO, NOT SINCE ' + rand_year.to_s + '\!'
-  end
-end
-  
