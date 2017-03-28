@@ -1,8 +1,0 @@
- 
-    if said \!= said.upcase
-      puts 'HUH?\! SPEAK UP, SONNY\!'
-    else
- +    rand_year = 1930 + rand(12)
-      puts 'NO, NOT SINCE ' + rand_year.to_s + '\!'
-    end
-  end
