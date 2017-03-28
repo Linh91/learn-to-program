@@ -1,0 +1,2 @@
+time_of_birth = Time.new(1991, 3, 8, 15, 00, 00)
+puts 'Billion seconds old: #{time_of_birth + 10 ** 9}'
