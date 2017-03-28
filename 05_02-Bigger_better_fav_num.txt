@@ -1,0 +1,4 @@
+puts Hey there, whats youre favorite number?
+num = gets.chomp.to_i
+diff_num = num + 1
+puts 'Great, but #{diff_num} is a better number, as bigger.' 
