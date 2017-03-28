@@ -1,0 +1,3 @@
+puts WHAT DO YOU WANT NOW?!
+request = gets.chomp
+puts 'ARE YOU KIDDING\! ' + request.upcase + '?\! YOU'RE FIRED\!' 
